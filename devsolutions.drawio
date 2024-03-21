@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T17:36:56.207Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="2BabgMACKBFWf4oEcHpU" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T17:48:10.151Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="APvGWPmXaHjc7vBn7RCh" version="24.0.7" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="996" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="996" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,32 +85,68 @@
         <mxCell id="jvm0_4f4kA9kSQbvEdQE-25" value="TimeOffRequest" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="770" y="460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-26" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="760" y="580" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-26" value="DocumentType" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="540" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-27" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="770" y="590" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-27" value="Document" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="590" y="590" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-28" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="780" y="600" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-28" value="PayrollData" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="740" y="730" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-29" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="790" y="610" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-29" value="RolePermissions" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="40" y="930" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-30" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="800" y="620" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-30" value="Permissions" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="70" y="820" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-31" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="810" y="630" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-31" value="Roles" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="870" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-32" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="820" y="640" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-32" value="DeductionTypes" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="810" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-33" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="830" y="650" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-33" value="EmployeeDeductions" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="460" y="770" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jvm0_4f4kA9kSQbvEdQE-34" value="Status" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="840" y="660" width="100" height="40" as="geometry" />
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-34" value="EmployeeEarnings" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="710" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-35" value="Subtask" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="910" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-36" value="TaskUpdate" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="260" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-37" value="TaskAssignment" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="650" y="940" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-38" value="Task" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="450" y="980" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-39" value="Project" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="525" y="900" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-41" value="EmployeeCheckInCheckOut" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="340" y="930" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-42" value="Priority" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="990" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-43" value="EmployeeTraining" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="990" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-49" value="DeductionType" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-50" value="EarningType" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1070" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-51" value="PerformanceEvaluation" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1110" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jvm0_4f4kA9kSQbvEdQE-52" value="PayrollPeriods" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1120" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
