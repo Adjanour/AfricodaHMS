@@ -162,3 +162,36 @@ INSERT INTO [dbo].[tblHrEmployeeTraining]
     (10, 2, '2023-01-16', '2023-01-16'), -- Emily Johnson completed Orientation
     (11, 3, '2023-03-15', NULL), -- Aryan Patel enrolled in Leadership Program (not yet completed)
     (12, 5, '2022-12-12', '2022-12-15') -- John Smith completed Customer Service in the past
+
+
+
+INSERT INTO [dbo].[tblHrQualifications]
+      ([qlfName]
+      ,[qlfDescription]
+      ,[qlfCreatedDate]
+      ,[qlfLastEditDate]
+      ,[qlfCreatedByUsrIdfk]
+      ,[qlfLastEditedByUsrIdfk])
+   VALUES
+    ('Bachelor of Science (Computer Science)', 'University degree in Computer Science', GETDATE(), GETDATE(), 1, 1),
+    ('Project Management Professional (PMP)', 'Industry-recognized project management certification', GETDATE(), GETDATE(), 1, 1),
+    ('Certified Public Accountant (CPA)', 'Accounting certification', GETDATE(), GETDATE(), 1, 1),
+    ('First Aid & CPR', 'Basic emergency response training', GETDATE(), GETDATE(), 1, 1),
+    ('Master of Business Administration (MBA)', 'Graduate business degree', GETDATE(), GETDATE(), 1, 1);
+
+
+
+INSERT INTO [dbo].[tblHrEmployeeQualifications]
+      ([empIdfk]
+      ,[qlfIdpk])
+   VALUES
+    (1, 1), -- John Smith (EMP101) has a Computer Science degree
+    (2, 2), -- Emily Johnson (EMP102) has a PMP certification
+    (3, 3), -- Aryan Patel (EMP103) has a CPA
+    (1, 4), -- John Smith also has First Aid & CPR 
+    (3, 5),  -- Aryan Patel has an MBA too
+	(9, 1), -- John Smith (EMP101) has a Computer Science degree
+    (10, 2), -- Emily Johnson (EMP102) has a PMP certification
+    (11, 3), -- Aryan Patel (EMP103) has a CPA
+    (9, 4), -- John Smith also has First Aid & CPR 
+    (12, 5)  -- Aryan Patel has an MBA too
